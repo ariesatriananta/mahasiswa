@@ -1,4 +1,7 @@
 Mahasiswa::Application.routes.draw do
+  resources :siswas
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

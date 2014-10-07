@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @siswa.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @siswa.email %>
+</p>
+
+<p>
+  <b>Alamat:</b>
+  <%= @siswa.alamat %>
+</p>
+
+
+<%= link_to 'Edit', edit_siswa_path(@siswa) %> |
+<%= link_to 'Back', siswas_path %>
